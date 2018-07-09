@@ -1,0 +1,127 @@
+<!DOCTYPE html!>
+<html id="jsv-content-page">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Webtek Course Website">
+  <meta name="keywords" content="Server-side web technologies, PHP, Node.js,
+  ASP,Java Servlets, Web Security, ">
+  <meta name="author" content="Joshua C. Trinidad, Lovelyn Paris">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <title>Java Servlets</title>
+   <!--Layout Style Links-->
+   <link rel="stylesheet" type="text/css" href="css/links.css">
+   <!--Text Style Links-->
+   <link rel="stylesheet" type="text/css" media="screen and (min-width: 1300px) and (max-width: 1399px)" href="css/text-1300.css">
+   <!--JSV Layout-->
+   <link rel="stylesheet" type="text/css" media="screen and (min-width: 1300px) and (max-width: 1399px)" href="css/contents-layout-1300.css">
+</head>
+<body>
+  <div id="main-container">
+    <div id="header-container">
+      <a id="main-title" href="index.html">Web Systems and Technologies</a>
+    </div>
+    <div id="left-container" class="section-container">
+      <div id="server-side-wt-container" class="section-container">
+        <p class="outside-content-section-title">Java Servlets</p>
+        <div id="main-content-container" class="section-container">
+          <p class="inside-section-title">Introduction</p>
+          <p class="main-topic-contents">
+            Java Servlets are programs that run on an Web Application server
+            and act as a middle layer between a request coming from a Web
+            browser or other HTTP client and databases or applications on
+            the HTTP server.
+          </p><br>
+          <p class="main-topic-contents">
+            Servlets can be created using the javax.servlet and
+            javax.servlet.http packages , which are a standard
+            part of the Java's enterprise edition, an expanded
+            version of the Java class library that supports
+            large-scale development projects.
+          </p><br>
+          <p class="inside-section-title">What does the Servlets do?</p>
+          <ul class="main-topic-contents">
+            <li>Read the explicit data sent by the clients (browsers)</li>
+            <li>Read the implicit HTTP request data sent by the
+              clients (browsers)</li>
+            <li>Process the data and generate the results</li>
+            <li>Send the explicit data (i.e., the document) to the
+              clients (browsers)</li>
+            <li>Send the implicit HTTP response to the clients (browsers)</li>
+          </ul><br>
+          <p class="inside-section-title">Servlets</p>
+          <ul class="main-topic-contents">
+            <li> Web-tier components in the Java EE architecture this runs
+              in a server application to answer client requests; technically,
+              servlets are not tied to a specific client-server protocol,
+              but they are most commonly used with HTTP and the term "servlet"
+              is often used in the context of an “HTTP Servlet” Runs in,
+              and is managed by, a web-tier container called the
+              "Servlet Container"</li>
+            <li>This is mapped to the URLs to which clients send requests
+              to the server. It is typically asked with
+              (among other things)</li>
+              <ul>
+                <li>Processing and/or storing data submitted via HTML
+              <code>&lt;form&gt;</code></li>
+                <li>Generating dynamic content</li>
+              </ul>
+          </ul>
+          <p class="inside-section-title">Java Servlets Packages</p>
+          <ul class="main-topic-contents">
+            <li><code>javax.servlet</code></li>
+              <ul>
+                <li><code>Servlet, GenericServlet</code></li>
+                <li><code>ServletRequest, ServletResponse</code></li>
+                <li><code>ServletConfig, ServletContext</code></li>
+                <li><code>RequestDispatcher</code></li>
+              </ul>
+            <li><code>javax.servlet.http</code></li>
+              <ul>
+                <li><code>HttpServlet</code></li>
+                <li><code>HttpServletRequest</code></li>
+                <li><code>HttpServletResponse</code></li>
+                <li><code>HttpSession</code></li>
+                <li><code>Cookie</code></li>
+              </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="right-container" class="section-container">
+      <div id="server-side-tabs-container" class="section-container">
+        <p class="section-tabs-title">Server-side Web Technologies</p>
+        <div id="server-side-wt-content-container" class="section-container">
+          <div id="php-tab" class="medium-tab">
+            <a class="content-title" href="php-content-page.html">PHP</a>
+          </div>
+          <div id="asp-tab" class="square-tab" class="navtab-container">
+            <a class="content-title" href="asp-content-page.html">ASP</a>
+          </div>
+          <div id="njs-tab" class="long-tab" class="navtab-container">
+            <a class="content-title" href="njs-content-page.html">Node.js</a>
+          </div>
+        </div>
+      </div>
+      <div id="web-security-container" class="section-container">
+        <p class="section-tabs-title">Web Security</p>
+        <div id="web-security-content-container" class="section-container">
+          <div id="threat-tab" class="square-tab" class="navtab-container">
+            <a class="content-title" href="threat-content.html">Threats</a>
+          </div>
+          <div id="mitigation-tab" class="medium-tab" class="section-container">
+            <a class="content-title" href="mitigation-content.html">Mitigation</a>
+          </div>
+        </div>
+      </div>
+      <div id="profile-access-container" class="section-container">
+        <p class="section-tabs-title">Join Us...</p>
+        <div id="profile-access-content-container" class="section-container">
+        </div>
+      </div>
+      <div id="space-container" class="section-container">
+      </div>
+    </div>
+  </div>
+</body>
+</html>

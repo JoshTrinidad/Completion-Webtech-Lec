@@ -1,0 +1,74 @@
+.section-title {
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  margin:0;
+  color:#FFFFFF;
+}
+
+.topic-title {
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  margin:5px;
+  color:#000000;
+}
+
+.lcc-text:hover .content-title {
+  font-size: 30px;
+  transition-timing-function: ease-out;
+  transition-delay: .2s;
+  transition-duration: .3s;
+}
+
+.hello-world-text {
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  margin:10px;
+  color:#000000;
+  display: block;
+}
+
+.section-tabs-title{
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  margin:0;
+  color:#FFFFFF;
+}
+
+.main-topic-contents {
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  margin:5px;
+  color:#000000;
+}
+
+.navtab-container:hover .content-title, .medium-tab:hover .content-title,
+.square-tab:hover .content-title, .long-tab:hover .content-title {
+  font-size: 25px;
+  color:#000000;
+  transition-timing-function: ease-out;
+  transition-delay: .2s;
+  transition-duration: .3s;
+}
+
+.outside-content-section-title {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin:0 0 5px 0;
+  color:#FFFFFF;
+}
+
+.inside-section-title {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin:10px 5px;
+  color:#000000;
+}

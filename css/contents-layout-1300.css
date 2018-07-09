@@ -1,0 +1,164 @@
+html {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#php-content-page {
+  background: url(images/php_background.png) no-repeat center center fixed;
+}
+
+#jsv-content-page {
+  background: url(images/jsv_background.jpg) no-repeat center center fixed;
+}
+
+#asp-content-page {
+  background: url(images/asp_background.png) no-repeat center center fixed;
+}
+
+#njs-content-page {
+  background: url(images/njs_background.jpg) no-repeat center center fixed;
+}
+/* MAIN CONTAINER */
+#main-container {
+  margin: 0 auto;
+  width: 1280px;
+}
+
+#header-container {
+  margin: 0  0 20px 0;
+  height: 30px;
+}
+
+.section-container {
+  float: left;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+}
+
+/* LEFT SECTION CONTAINER */
+#left-container {
+  width: 896px;
+}
+
+#main-content-container {
+  width: 886px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: #000000;
+  border-width: thin;
+  border-style:solid;
+}
+
+/* RIGHT SECTION CONTAINER */
+#right-container {
+  width: 356px;
+}
+
+#server-side-wt-container {
+  width: 896px;
+  height: 200px;
+}
+
+#server-side-tabs-container {
+  width: 356px;
+  height: 220px;
+}
+#server-side-wt-content-container {
+  width: 356px;
+  height: 190px;
+}
+
+#web-security-container {
+  width: 356px;
+  height: 160px;
+}
+
+#web-security-content-container {
+  width: 356px;
+  height: 130px;
+}
+#profile-access-container {
+  width: 356px;
+  height: 200px;
+}
+
+#profile-access-content-container {
+  border-color: black;
+  border-width: thick;
+  border-style: dotted;
+  width: 256px;
+  height: 160px;
+}
+
+#space-container {
+  width: 640px;
+  height: 120px;
+}
+
+.navtab-container {
+  float: left;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+}
+
+#php-tab {
+  background-color:rgba(127, 0, 255, 0.4);
+}
+
+#jsv-tab {
+  background-color: rgba(255, 128, 0, 0.5);
+}
+
+#asp-tab {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#njs-tab {
+  background-color: rgba(102, 204, 0, 0.5);
+}
+
+#threat-tab {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+#mitigation-tab {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+.medium-tab {
+  width: 200px;
+  height: 120px;
+  margin: 5px;
+  border-color: #000000;
+  border-width: thin;
+  border-style:solid;
+  float: left;
+  display: inline-block;
+  position: relative;
+}
+
+.square-tab {
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  border-color: #000000;
+  border-width: thin;
+  border-style:solid;
+  float: left;
+  display: inline-block;
+  position: relative;
+}
+
+.long-tab {
+  width: 332px;
+  height: 50px;
+  margin: 5px;
+  border-color: #000000;
+  border-width: thin;
+  border-style:solid;
+  float: left;
+  display: inline-block;
+  position: relative;
+}

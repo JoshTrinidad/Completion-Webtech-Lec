@@ -1,0 +1,30 @@
+html {
+  background: url(images/wcw_background.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#main-container {
+  margin: 0 auto;
+  width: 280px;
+}
+.section-container {
+  float: left;
+  display: inline-block;
+  position: relative;
+  margin: 10px 10px;
+}
+
+#server-side-wt-container {
+  background-color:red;
+  width: 260px;
+  height: 260px;
+}
+
+#web-security-container {
+  background-color: blue;
+  width: 260px;
+  height: 260px;
+}
