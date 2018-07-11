@@ -4,6 +4,7 @@ include "../includes/db.php";
 session_start();
 
 $db =  new Db();
+$error="";
 ?>
 
 <!DOCTYPE html>
