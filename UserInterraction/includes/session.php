@@ -18,7 +18,7 @@
         $status = $row['status'];
     }
     else{
-        header("Location:../login/login.php");
+        header("Location: login.php");
         exit;
     }
 ?>

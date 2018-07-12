@@ -2,14 +2,11 @@
 <html lang="en">
 
 <head>
-    <?php
-    include_once "modules/head.php";
-    ?>
-    <link rel="stylesheet" href="style/style.css">
     <title>Document</title>
 </head>
 
 <body>
+<?php include "../modules/block_bubbles.php"; ?>
     <div class="container-fluid">
         <div class="row flex-row flex-nowrap">
             <div class="row col-5">
