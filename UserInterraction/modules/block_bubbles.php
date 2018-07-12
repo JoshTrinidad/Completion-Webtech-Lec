@@ -5,7 +5,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 0;
+    z-index: -1;
     transform: translateZ(0);
 }
        
@@ -70,9 +70,50 @@
 
 body {
     overflow-y: hidden;
-    overflow-x: hidden;
-    z-index: 1;
-    background: linear-gradient(180deg, #011f4b, #005b96, #b3cde0);
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(150deg, #005b96, #03396c, #6497b1, #b3cde0);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 200s ease;
+	-moz-animation: Gradient 200s ease;
+	
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 </style>
     <ul class="bubbles">

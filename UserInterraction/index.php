@@ -2,11 +2,12 @@
 <html lang="en">
 
 <head>
+    <?php include "modules/head.php"; ?>
     <title>Document</title>
 </head>
 
 <body>
-<?php include "../modules/block_bubbles.php"; ?>
+<?php include "modules/block_bubbles.php"; ?>
     <div class="container-fluid">
         <div class="row flex-row flex-nowrap">
             <div class="row col-5">

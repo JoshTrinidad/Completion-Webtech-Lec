@@ -38,5 +38,6 @@ if(isset($_SESSION['id'])){
     echo $greeting ;
     ?>
     <a href = "../logout.php">Logout</a>
+    
 </body>
 </html>
