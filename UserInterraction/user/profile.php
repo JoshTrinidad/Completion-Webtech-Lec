@@ -44,6 +44,7 @@ if(isset($_SESSION['id'])){
 
 <body>
     <div class="row flex-row flex-nowrap">
+        <!--Page1-->
         <div class="col-12 mw-100" id="forum">
             <div class="jumbotron p-3 p-md-3 text-white rounded bg-dark ">
                 <div class="col-md-12 px-0 headerblog">
@@ -144,8 +145,8 @@ if(isset($_SESSION['id'])){
                     </div>
                 </div>
                 <div class="col-2">
-                    <div class="list-group">
-                        <a href="#" class="btn btn-info btn-lg">
+                    <div class="list-group" id="p1">
+                        <a href="#p2" class="btn btn-info btn-lg">
                             <span class="glyphicon glyphicon-chevron-left"></span>Left</a>
                         <a href="#" class="btn btn-info btn-lg">
                             <span class="glyphicon glyphicon-chevron-right"></span>Right</a>
@@ -156,14 +157,42 @@ if(isset($_SESSION['id'])){
             </div>
         </div>
 
-        <div class="col-12 mw-100">
-            
+        <!--Page2-->
+        <div class="col-12 mw-100" id="p2">
+            <div class="mw-100 row col-12 border">
+                <div class="col-4">
+                    <div class="jumbotron p-3 p-md-3 text-dark rounded ">
+                        <div class="col-md-12 px-0 headerblog">
+                            <h1 class="display-4 font-italic">Web Tech Forum</h1>
+                            <p class="lead my-3">Share. Solve. Learn.</p>
+                            <h2 class="lead my-3">
+                                <?php 
+                                    echo $greeting ;
+                                    ?>
+                            </h2>
+                            <p class="text-right">
+                                <a href="../logout.php">Logout</a>
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-5 border">
+                    <?php
+                        include "../modules/courses/swivel.php";
+                    ?>
+                </div>
+                <div class="col-6 border">
+                    <?php
+                        include "../modules/courses/slide.php";
+                    ?>
+                </div>
+            </div>
+
         </div>
-
     </div>
-
-
-
 
 </body>
 
