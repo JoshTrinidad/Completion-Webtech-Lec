@@ -1,0 +1,69 @@
+.page-access-title {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #ffffff;
+  float: left;
+  margin: 0 5px;
+}
+
+.section-access-title {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #ffffff;
+  float: left;
+  margin: 0 5px;
+}
+
+.overlay-text {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #ffffff;
+  float: left;
+  margin: 0 5px;
+}
+
+.overlay-button {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #000000;
+  margin: 0 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  .page-access-title {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #ffffff;
+  }
+
+  .section-access-title {
+    font-size: 25px;
+  }
+
+  .overlay-text {
+    font-size: 20px;
+  }
+
+  .overlay-button {
+    font-size: 20px;
+  }
+
+  .overlay-button:hover {
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .page-access-title {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #ffffff;
+  }
+
+  .section-access-title {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #ffffff;
+    margin: 0 5px;
+  }
+}

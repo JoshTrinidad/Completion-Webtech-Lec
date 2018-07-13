@@ -1,0 +1,26 @@
+.link-text {
+  text-decoration: none;
+}
+
+#wcw-title {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 900px) {
+  #wcw-title {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  #wcw-title {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+}
