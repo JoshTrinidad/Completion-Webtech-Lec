@@ -3,7 +3,7 @@
 
 <head>
     <?php include "modules/head.php"; ?>
-    <title>Document</title>
+    <title>Index Forums</title>
 </head>
 
 <body>
@@ -11,6 +11,7 @@
     <div class="container-fluid">
         <div class="row flex-row flex-nowrap">
             <div class="row col-5">
+                
                 <div class="col-6 border">.col-6</div>
                 <div class="col-6 border">.col-6</div>
                 <div class="col-6 border">.col-6</div>
