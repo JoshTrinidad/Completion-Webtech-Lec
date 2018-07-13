@@ -11,10 +11,10 @@ $id = $_SESSION['id'];
 
 if(isset($_POST['submit']) && isset($id)){
     $topic = $_POST['topic'];
-    $subtopic = $_POST['sub_topic'];
+    $subtopic = $_POST['subtopic'];
 
     if(isset($topic) && isset($subtopic)){
-        $result = $db->query("INSERT INTO forum(`topic` , `sub_topic`, `user_id` ) VALUES ('$topic', '$subtopic' , '$id')");
+        $result = $db->query("INSERT INTO forum(topic , sub_topic, user_id) VALUES ('$topic', '$subtopic' , '$id')");
         header("location: profile.php");
     }else{
         echo $error;
@@ -28,7 +28,7 @@ if(isset($_POST['submit']) && isset($id)){
 
 <head>
     <?php include "../modules/head.php"; ?>
-    <title>My Profile - Adding a Blog</title>
+    <title>Create Forum</title>
 </head>
 
 <body style=" padding-bottom: 10%; ">
@@ -40,7 +40,7 @@ if(isset($_POST['submit']) && isset($id)){
             <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
                 <div class="container-fluid">
                     <br>
-                    <h4>Create a New Blog</h4>
+                    <h4>Start Forum</h4>
                     <p>Topic: </p>
                     <input type="text" name="topic" class="form-control" required>
 
