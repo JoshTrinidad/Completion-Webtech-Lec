@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <link rel="stylesheet" href="../css/bootstrap/css/bootstrap-theme.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="../style.css">
+
+  <title>Webtek PHP</title>
+  <!--<link rel="stylesheet" type="text/css" href="webtek.css">-->
+</head>
+
+<body>
+  <div class="container">
+
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="../index.html">Webtek PHP</a>
+        </div>
+
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+
+          <li>
+            <a href="../links/java servelet.html">Java Servelets</a>
+          </li>
+
+          <li>
+            <a href="../links/php.html">PHP</a>
+          </li>
+
+          <li>
+            <a href="../links/node.html">Node.js</a>
+          </li>
+
+          <li>
+            <a href="../links/asp.html">ASP</a>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#">
+              <span class="glyphicon glyphicon-user"></span> Sign Up</a>
+          </li>-->
+          <li>
+            <a href="#">
+              <span class="glyphicon glyphicon-log-in"></span> Logged out </a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+    <!--End of Navigation Bar-->
+
+    <!--Page Header-->
+    <div class="page-header">
+      <h1>PHP <i>(Personal Home Page)</i></h1>
+    </div>
+
+    <!--Content-->
+    <div class="container-fluid">
+
+      <!--Accordion style content-->
+      <div class="container">
+        <div class="panel-group" id="accordion">
+
+          <!--Introduction Tab-->
+          <div class="panel panel-default">
+            <!--Introduction Title-->
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                  <strong>Introduction</strong>
+                </a>
+              </h4>
+            </div>
+
+            <!--Introduction Content-->
+            <div id="collapse1" class="panel-collapse collapse in">
+              <div class="panel-body">
+                <li>
+                  Java Servlets are programs that run on an Web Application server and act as a middle layer between a request coming from
+                  a Web browser or other HTTP client and databases or applications on the HTTP server.
+                </li>
+
+                <li>
+                  Servlets can be created using the
+                  <samp>javax.servlet</samp> and
+                  <samp>javax.servlet.http</samp> packages , which are a standard part of the Java&#39;s enterprise edition, an
+                  expanded version of the Java class library that supports large-scale development projects.
+                </li>
+
+              </div>
+            </div>
+
+          </div>
+
+          <!--What does the Servelets do: -->
+          <div class="panel panel-default">
+            <!--Title-->
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                  <strong>What does the Servelets do?</strong>
+                </a>
+              </h4>
+            </div>
+
+            <!--Content-->
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body">
+                <ul>
+                  <li>Read the explicit data sent by the clients (browsers)</li>
+                  <li>Read the implicit HTTP request data sent by the clients (browsers)</li>
+                  <li>Process the data and generate the results</li>
+                  <li>Send the explicit data (i.e., the document) to the clients (browsers)</li>
+                  <li>Send the implicit HTTP response to the clients (browsers).</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+          <!--Java Object based on the Servlet API-->
+          <div class="panel panel-default">
+            <!--Title-->
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                  <strong>Servelets</strong>
+                </a>
+              </h4>
+            </div>
+
+            <!--Content-->
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body">
+
+                <ul>
+                  <li>
+                    Web-tier components in the Java EE architecture this runs in a server application to answer client requests; technically,
+                    servlets are not tied to a specific client-server protocol, but they are most commonly used with HTTP
+                    and the term "servlet" is often used in the context of an “HTTP Servlet” Runs in, and is managed by,
+                    a web-tier container called the "Servlet Container"
+                  </li>
+
+                  <br>
+
+                  <li>
+                    This is mapped to the URLs to which clients send requests to the server. It is typically asked with (among other things)
+                    <ol>
+                      <li>Processing and/or storing data submitted via HTML
+                        <code>&lt;forms&gt;</code>
+                      </li>
+                      <li>Generating dynamic content</li>
+                    </ol>
+                  </li>
+
+                  <!--Java Servelets Packages-->
+                  <div class="page-header">
+                    <h4>Java Servelets Packages</h4>
+                  </div>
+
+                  <!--Java Servelets Contents-->
+                  <ol>
+                    <li>
+                      <samp>javax.servlet</samp></li>
+                    <ul><samp>
+                      <li>Servlet, GenericServlet</li>
+                      <li>ServletRequest, ServletResponse</li>
+                      <li>ServletConfig, ServletContext</li>
+                      <li>RequestDispatcher</li>
+                    </samp></ul>
+
+                    <li><samp>javax.servlet.http</samp></li>
+                    <ul><samp>
+                      <li>HttpServlet</li>
+                      <li>HttpServletRequest</li>
+                      <li>HttpServletResponse</li>
+                      <li>HttpSession</li>
+                      <li>Cookie</li>
+                    </samp></ul>
+                  </ol>
+
+
+
+
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  </div>
+
+  <script src="../js/webtek.js"></script>
+  <script src="../css/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../css/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

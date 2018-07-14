@@ -47,7 +47,7 @@ img {
 }
 </style>
 
-<a href="njs-content-page.html">
+<a href="/modules/courses/topics/node.html">
     <div id="f1_container">
         <div id="f1_card" class="shadow">
             <div class="front face">
